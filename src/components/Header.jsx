@@ -4,7 +4,7 @@ function Header() {
       <div className="Header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div id="logo">
-            <a href="#"><img src="../../public/logo.svg" alt="" srcset="" /></a>
+            <a href="#"><img src="/logo.svg" alt="" srcset="" /></a>
           </div>
             
           <button

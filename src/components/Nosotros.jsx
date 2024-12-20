@@ -18,7 +18,7 @@ function Nosotros() {
                     </p>
                 </div>
                 <div className="col-md-6">
-                    <img src="../../public/nosotros.jpg" alt="" srcset="" />
+                    <img src="/nosotros.jpg" alt="" srcset="" />
                 </div>
             </div>
         </section>
