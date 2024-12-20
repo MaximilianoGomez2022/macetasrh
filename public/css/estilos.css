@@ -1,0 +1,173 @@
+h1, h2, h3, p, a {
+    font-family: "Instrument Sans", serif;
+    font-optical-sizing: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+header {
+    padding: 15px 0px;
+    background-color: #ffffff;
+}
+
+.navbar {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #ffffff !important;
+}
+
+.navbar li {
+    margin-left: 70px !important;
+}
+
+footer {
+    padding: 30px;
+    background-color: #e9d5c5;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+
+#logo {
+    position: absolute;
+    top: -10px;
+    z-index: 10000;
+    width: 220px;
+}
+
+/* BANNER */
+
+.banner {
+    margin-bottom: 7em;
+}
+
+.banner img {
+
+}
+
+.texto-banner {
+    width: 60%;
+    position: absolute;
+    color: rgb(68, 68, 68);
+    margin-left: 5em;
+    margin-top: 7.5em;
+}
+
+.texto-banner h2 {
+    font-size: 4.8em;
+    font-weight: 900;
+    letter-spacing: 1.3px;
+}
+
+.texto-banner p {
+    font-size: 1.5em;
+    letter-spacing: 1.3px;
+    font-weight: 500;
+    width: 70%;
+}
+
+/* MACETAS */
+
+.section-macetas {
+    margin-bottom: 7em;
+}
+
+.section-macetas h2 {
+    margin-bottom: .8em;
+    font-size: 3em;
+    color: rgb(120, 117, 113);
+    font-weight: 800;
+}
+
+.section-macetas img {
+    opacity: 1;
+    transition: 550ms;
+    cursor: pointer;
+    object-fit: cover; /* Hace que la imagen se ajuste y cubra el div, recortando si es necesario */
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+}
+
+.pot-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Esto se ajusta con el contenedor padre */
+    max-width: 300px; /* Ancho máximo para cada card */
+    aspect-ratio: 1; /* Mantiene la relación 1:1 para un cuadrado */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.pot-image {
+    width: 100%;
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Asegura que la imagen llene el espacio */
+}
+
+/* SERVICIOS */
+
+.section-pastillas {
+    margin-bottom: 7em;
+}
+
+.section-pastillas p {
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    color: rgb(120, 117, 113);
+}
+
+.section-pastillas h2 {
+    margin-bottom: .8em;
+    font-size: 3em;
+    color: rgb(120, 117, 113);
+    font-weight: 800;
+}
+
+.section-pastillas img {
+    max-width: 150px;
+    text-align: center !important;
+}
+
+.contenedor-pastilla {
+    border: 4px solid #e9d5c5;
+    border-radius: 6px;
+    text-align: center !important;
+    margin: 0px 20px;
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.contenedor-pastilla h2 {
+    margin-bottom: .8em;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+/* NOSOTROS */
+
+.section-nosotros {
+    margin-bottom: 7em;
+}
+
+.section-nosotros h2 {
+    margin-bottom: .8em;
+    font-size: 3em;
+    color: #787571;
+    font-weight: 800;
+}
+
+.section-nosotros p {
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    color: rgb(120, 117, 113);
+}
