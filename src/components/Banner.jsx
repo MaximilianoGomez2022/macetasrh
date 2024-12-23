@@ -8,7 +8,7 @@ function Banner() {
             </div>
             <figure>                  
             <picture >
-                <source media="(max-width: 378px)" srcSet="./banner-cel-2.jpg"/>
+                <source media="(max-width: 420px)" srcSet="./banner-cel-2.jpg"/>
                 <source media="(max-width: 576px)" srcSet="./banner.jpg"/>
                 <source media="(max-width: 768px)" srcSet="./banner.jpg"/>
                 <source media="(max-width: 991px)" srcSet="./banner.jpg"/>
