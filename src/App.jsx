@@ -13,6 +13,11 @@ function App() {
 
   return (
     <>
+    <div class="logo-wsp">
+      <a href="https://api.whatsapp.com/send?phone=3518011125" target="_blank">
+        <img src="./wspp.png" alt="WhatsApp"/>
+      </a>
+    </div>
     <Header></Header>
     <Banner></Banner>
     <Productos></Productos>
