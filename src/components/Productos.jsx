@@ -17,7 +17,7 @@ function Productos() {
             <div className="row">
             <h2>LO MAS VENDIDO</h2>
             </div>
-            <div className="row align-items-center">
+            <div className="row row-macetas align-items-center">
             {pots.map((pot) => (
             <div className="pot-card col-md-4 text-center mb-5" key={pot.id}>
                 <img src={pot.image} alt={pot.name} className="pot-image" />
