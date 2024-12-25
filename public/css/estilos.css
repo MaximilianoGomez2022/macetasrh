@@ -17,6 +17,7 @@ img{
     position: fixed;
     top: 80%;
     right: 2px;
+    z-index: 10;
   } 
 
 .navbar-toggler {
@@ -59,7 +60,7 @@ navbar-toggler.focus-ring:focus {
 }
 
 .texto-banner {
-    width: 92%;
+    width: 95%;
     color: rgb(68, 68, 68);
     margin: auto;
     z-index: 100000;
@@ -82,6 +83,23 @@ navbar-toggler.focus-ring:focus {
     letter-spacing: 1.1px;
     font-weight: 500;
     width: 100%;
+}
+
+/* ENVIOS */
+
+.envio-section {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.envio-section img {
+    max-width: 60px;
+}
+
+.envio-section p {
+    display: inline;
+    padding-top: 15px;
+    margin-right: 12    px;
 }
 
 /* MACETAS */
@@ -222,10 +240,18 @@ footer {
     .navbar li {
         margin-left: 70px !important;
     }
+
+    .navbar-nav {
+        padding: 0px;
+    }
+    
+    .navbar-nav li {
+        margin: 0px;
+    }
     
     #logo {
         position: absolute;
-        top: -10px;
+        top: -11px;
         z-index: 10000;
         width: 220px;
     }

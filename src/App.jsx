@@ -8,6 +8,7 @@ import Productos from './components/Productos'
 import Footer from './components/Footer'
 import Nosotros from './components/Nosotros'
 import Pastillas from './components/Pastillas'
+import Envios from './components/Envio'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
     </div>
     <Header></Header>
     <Banner></Banner>
+    <Envios></Envios>
     <Productos></Productos>
     <Pastillas></Pastillas>
     <Nosotros></Nosotros>
