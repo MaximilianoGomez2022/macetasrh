@@ -90,6 +90,7 @@ navbar-toggler.focus-ring:focus {
 .envio-section {
     margin-top: 80px;
     text-align: center;
+    padding-top: 3em;
 }
 
 .envio-section img {
