@@ -174,7 +174,7 @@ navbar-toggler.focus-ring:focus {
     border-radius: 10px;
     text-align: left !important;
     width: 95%;
-    max-width: 400px;
+    max-height: 95vh;
     position: relative;
   }
 
