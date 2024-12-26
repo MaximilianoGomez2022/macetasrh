@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 function Productos() {
 
     const [pots, setPots] = useState([]);
+    const [selectedPot, setSelectedPot] = useState(null); // Estado para el producto seleccionado
+    const [isModalOpen, setIsModalOpen] = useState(false); // Estado para controlar el modal
 
     useEffect(() => {
         // Cargar datos desde el archivo JSON
@@ -11,6 +13,16 @@ function Productos() {
         .then((data) => setPots(data))
         .catch((error) => console.error("Error al cargar las macetas:", error));
     }, []);
+
+    const openModal = (pot) => {
+        setSelectedPot(pot); // Guardar el producto seleccionado
+        setIsModalOpen(true); // Abrir el modal
+      };
+    
+      const closeModal = () => {
+        setSelectedPot(null); // Limpiar el producto seleccionado
+        setIsModalOpen(false); // Cerrar el modal
+      };
 
     return (
         <section className="container section-macetas">
