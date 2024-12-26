@@ -180,11 +180,14 @@ navbar-toggler.focus-ring:focus {
 
   .modal-content h2 {
     text-align: left;
+    margin-bottom: 10px !important;
   }
 
   .modal-content p {
     text-align: left;
+    margin-bottom: 10px !important;
   }
+  
   
   
   .modal-image {
