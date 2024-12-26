@@ -1,74 +1,86 @@
 [
-    {
-      "id": 1,
-      "name": "Maceta de Cerámica",
-      "image": "../prod-1.jpg",
-      "description": "Hermosa maceta de cerámica hecha a mano."
-    },
-    {
-      "id": 2,
-      "name": "Maceta de Barro",
-      "image": "../prod-2.jpg",
-      "description": "Maceta tradicional de barro ideal para tu jardín."
-    },
-    {
-      "id": 3,
-      "name": "Maceta de Plástico",
-      "image": "../prod-3.jpg",
-      "description": "Ligera y económica, ideal para interiores."
-    },
-    {
-      "id": 4,
-      "name": "Maceta de Cerámica",
-      "image": "../prod-4.jpg",
-      "description": "Hermosa maceta de cerámica hecha a mano."
-    },
-    {
-      "id": 5,
-      "name": "Maceta de Barro",
-      "image": "../prod-5.jpg",
-      "description": "Maceta tradicional de barro ideal para tu jardín."
-    },
-    {
-      "id": 6,
-      "name": "Maceta de Plástico",
-      "image": "../prod-6.jpg",
-      "description": "Ligera y económica, ideal para interiores."
-    },
-    {
-      "id": 7,
-      "name": "Maceta de Cerámica",
-      "image": "../prod-7.jpg",
-      "description": "Hermosa maceta de cerámica hecha a mano."
-    },
-    {
-      "id": 8,
-      "name": "Maceta de Barro",
-      "image": "../prod-8.jpg",
-      "description": "Maceta tradicional de barro ideal para tu jardín."
-    },
-    {
-      "id": 9,
-      "name": "Maceta de Plástico",
-      "image": "../prod-9.jpg",
-      "description": "Ligera y económica, ideal para interiores."
-    },
-    {
-      "id": 10,
-      "name": "Maceta de Cerámica",
-      "image": "../prod-10.jpg",
-      "description": "Hermosa maceta de cerámica hecha a mano."
-    },
-    {
-      "id": 11,
-      "name": "Maceta de Barro",
-      "image": "../prod-11.jpg",
-      "description": "Maceta tradicional de barro ideal para tu jardín."
-    },
-    {
-      "id": 12,
-      "name": "Maceta de Plástico",
-      "image": "../prod-12.jpg",
-      "description": "Ligera y económica, ideal para interiores."
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Maceta de Cerámica",
+    "image": "../prod-1.jpg",
+    "description": "Hermosa maceta de cerámica hecha a mano.",
+    "price" : 3500
+  },
+  {
+    "id": 2,
+    "name": "Maceta de Barro",
+    "image": "../prod-2.jpg",
+    "description": "Maceta tradicional de barro ideal para tu jardín.",
+    "price" : 18000
+  },
+  {
+    "id": 3,
+    "name": "Maceta de Plástico",
+    "image": "../prod-3.jpg",
+    "description": "Ligera y económica, ideal para interiores.",
+    "price" : 22000
+  },
+  {
+    "id": 4,
+    "name": "Maceta de Cerámica",
+    "image": "../prod-4.jpg",
+    "description": "Hermosa maceta de cerámica hecha a mano.",
+    "price" : 3500
+  },
+  {
+    "id": 5,
+    "name": "Maceta de Barro",
+    "image": "../prod-5.jpg",
+    "description": "Maceta tradicional de barro ideal para tu jardín.",
+    "price" : 18000
+  },
+  {
+    "id": 6,
+    "name": "Maceta de Plástico",
+    "image": "../prod-6.jpg",
+    "description": "Ligera y económica, ideal para interiores.",
+    "price" : 22000
+  },
+  {
+    "id": 7,
+    "name": "Maceta de Cerámica",
+    "image": "../prod-7.jpg",
+    "description": "Hermosa maceta de cerámica hecha a mano.",
+    "price" : 3500
+  },
+  {
+    "id": 8,
+    "name": "Maceta de Barro",
+    "image": "../prod-8.jpg",
+    "description": "Maceta tradicional de barro ideal para tu jardín.",
+    "price" : 18000
+  },
+  {
+    "id": 9,
+    "name": "Maceta de Plástico",
+    "image": "../prod-9.jpg",
+    "description": "Ligera y económica, ideal para interiores.",
+    "price" : 22000
+  },
+  {
+    "id": 10,
+    "name": "Maceta de Cerámica",
+    "image": "../prod-10.jpg",
+    "description": "Hermosa maceta de cerámica hecha a mano.",
+    "price" : 3500
+  },
+  {
+    "id": 11,
+    "name": "Maceta de Barro",
+    "image": "../prod-11.jpg",
+    "description": "Maceta tradicional de barro ideal para tu jardín.",
+    "price" : 18000
+  },
+  {
+    "id": 12,
+    "name": "Maceta de Plástico",
+    "image": "../prod-12.jpg",
+    "description": "Ligera y económica, ideal para interiores.",
+    "price" : 34000
+  }
+]
